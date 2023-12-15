@@ -39,14 +39,14 @@
         align-items: center;
     }
     .item img{
-        width: 660px;
-        height: 660px;
+        width: 96vh;
+        height: 176vw;
     }
     .item p{
-        font-size: 50px;
-        width:600px;
+        font-size: 6vh;
+        width:60vh;
     }
     .item-price-new{
-        font-size: 50px;
+        font-size: 8vh;
     }
 }
