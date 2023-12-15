@@ -24,3 +24,41 @@
     /* width: 50px;
     height: 50px; */
 }
+
+@media screen and (max-width: 450px) {
+    .relatedproducts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: 300vh;
+        width: 65rem;
+    }
+    .relatedproducts h1{
+        color: #171717;
+        font-size: 80px;
+        font-weight: 600;
+        position: relative;
+        left: 12rem;
+    }
+    .relatedproducts hr{
+        width:300px;
+        height: 25px;
+        height: 6px;
+        position: relative;
+        left: 12rem;
+        border-radius: 10px;
+        background: #252525;
+    }
+    .relatedproduct-item{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20rem;
+        position: relative;
+        left: 12rem;
+        /* display: flex; */
+        /* width: 50px;
+        height: 50px; */
+    }
+}

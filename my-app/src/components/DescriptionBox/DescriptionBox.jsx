@@ -8,8 +8,8 @@ const DescriptionBox = () => {
             {/* <div className="descriptionbox-nav-box fade">Reviews (122)</div> */}
         </div>
         <div className="desciptionbox-description">
-            <p>Payment Methods - G-pay, PhonePe, Paytm.</p>
-            <p>P.s. - Insert Screenshot of the payment in the G-form</p>
+            <p><b>Payment Methods -</b> G-pay, PhonePe, Paytm.</p>
+            <p><b>P.s. -</b> Insert Screenshot of the payment in the G-form</p>
         </div>
     </div>
   )

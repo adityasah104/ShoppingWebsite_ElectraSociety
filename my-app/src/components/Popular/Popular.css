@@ -28,3 +28,44 @@
     display: flex;
     gap: 30px;
 }
+
+
+@media screen and (max-width: 450px) {
+
+.popular{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 300vh;
+}
+.popular h1{
+    color: #171717;
+    font-size: 80px;
+    font-weight: 600;
+    width: 900px;
+    position: relative;
+    left: 45rem;
+    bottom: 0rem;
+}
+.popular hr{
+    width:300px;
+    /* height: 990px; */
+    border-radius: 10px;
+    background: #252525;  
+    position: relative;
+    left: 35rem;
+    bottom: 1rem;
+}
+.popular-item{
+    margin-top: 50px;
+   position: relative;
+   left: 32rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    row-gap: 100px;
+    column-gap: 400px;
+}
+}
