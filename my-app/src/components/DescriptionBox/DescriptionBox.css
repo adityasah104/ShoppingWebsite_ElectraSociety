@@ -1,5 +1,5 @@
 .descriptionbox{
-    margin: 120px 170px;
+    margin: 2vh 5vw;
 }
 .descriptionbox-navigator{
     display: flex;
@@ -8,10 +8,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 3vh;
     font-weight: 600;
-    width: 171px;
-    height: 70px;
+    width: 25vh;
+    height: 5vw;
     border: 1px solid #d0d0d0;
 }
 .descriptionbox-nav-box.fade{
@@ -21,19 +21,19 @@ color: #555;
 .desciptionbox-description {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 2vw;
     border: 1px solid #D0D0D0;
-    padding: 48px;
-    padding-bottom: 70px;
+    padding: 4vh;
+    padding-bottom: 4vw;
 }
 
 @media screen and (max-width: 450px) {
     .descriptionbox{
-        margin: 120px 170px;
-        width: 54rem;
+        margin: 12vh 17vh;
+        width: 100vh;
         position: relative;
-        bottom: 5rem;
-        right: 6rem;
+        bottom: 35vw;
+        right: 8vh;
     }
     .descriptionbox-navigator{
         display: flex;
@@ -42,10 +42,10 @@ color: #555;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 26px;
+        font-size: 6vh;
         font-weight: 600;
-        width: 171px;
-        height: 70px;
+        width: 47vh;
+        height: 27vw;
         border: 1px solid #d0d0d0;
     }
     .descriptionbox-nav-box.fade{
@@ -55,12 +55,12 @@ color: #555;
     .desciptionbox-description {
         display: flex;
         flex-direction: column;
-        gap: 25px;
+        gap: 2vw;
         border: 1px solid #D0D0D0;
-        padding: 48px;
-        padding-bottom: 70px;
+        padding: 4vh;
+        padding-bottom: 9vw;
     }
     .desciptionbox-description{
-        font-size: 45px;
+        font-size: 5vh;
     }
 }

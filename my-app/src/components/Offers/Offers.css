@@ -3,9 +3,9 @@
     height: 60vh;
     display: flex;
     margin: auto;
-    padding: 0px 140px;
-    margin-bottom: 150px;
-    background: linear-gradient(180deg, #fde1ff 0% #e1ffea22 60%);
+    padding: 0px 14vh;
+    margin-bottom: 12vw;
+    background: linear-gradient(180deg, #ddc5df 0% #e1ffea22 60%);
 }
 .offers-left{
     flex: 1;
@@ -15,24 +15,24 @@
 }
 .offers-left h1{
     color: #171717;
-    font-size: 80px;
+    font-size: 10vh;
     font-weight: 600;
 }
 .offers-left p{
     color: #171717;
-    font-size: 22px;
+    font-size: 3vh;
     font-weight: 600;
 }
 .offers-left button{
-    width: 282px;
-    height: 70px;
-    border-radius: 35px;
+    width: 38vh;
+    height: 4vw;
+    border-radius: 7vh;
     background: #ff4141;
     border: none;
     color: white;
-    font-size: 22px;
+    font-size: 4vh;
     font-weight: 500;
-    margin-top: 30px;
+    margin-top: 3vw;
     cursor: pointer;
 }
 .offers-right{
@@ -40,12 +40,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 1vw;
 }
 
 .eximg{
-    height: 630px;
-    width: 500px;
+    height: 43vw;
+    width: 65vh;
     position: relative;
     left: 105px;
     top: 40px;
@@ -59,8 +59,8 @@
         height: 150vh;
         display: flex;
         margin: auto;
-        padding: 0px 60px;
-        margin-bottom: 150px;
+        /* padding: 0px 6vh; */
+        margin-bottom: 45vw;
         background: linear-gradient(180deg, #fde1ff 0% #e1ffea22 60%);
     }
     .offers-left{
@@ -71,24 +71,24 @@
     }
     .offers-left h1{
         color: #171717;
-        font-size: 100px;
+        font-size: 12vh;
         font-weight: 800;
     }
     .offers-left p{
         color: #171717;
-        font-size: 42px;
+        font-size: 6vh;
         font-weight: 600;
     }
     .offers-left button{
-        width: 482px;
-        height: 100px;
-        border-radius: 35px;
+        width: 68vh;
+        height: 30vw;
+        border-radius: 7vh;
         background: #ff4141;
         border: none;
         color: white;
-        font-size: 52px;
+        font-size: 8vh;
         font-weight: 500;
-        margin-top: 30px;
+        margin-top: 21vw;
         cursor: pointer;
     }
     .offers-right{
@@ -96,15 +96,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 50px;
+        padding-top: 5vw;
     }
     
     .eximg{
-        height: 1030px;
-        width: 600px;
+        height: 303vw;
+        width: 90vh;
         position: relative;
-        left: 105px;
-        top: 40px;
+        left: 10vh;
+        top: 5vw;
     }
     
 }

@@ -1,32 +1,25 @@
-/* *{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 .popular{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 3vh;
     height: 90vh;
 }
 .popular h1{
     color: #171717;
-    font-size: 50px;
+    font-size: 7vh;
     font-weight: 600;
 }
 .popular hr{
-    width: 200px;
-    height: 6px;
-    border-radius: 10px;
+    width: 30vh;
+    height: .5vh;
+    border-radius: 1vh;
     background: #252525;  
 }
 .popular-item{
-    margin-top: 50px;
-    /* width: 150px;
-    height: 150px; */
+    margin-top: 5vw;
     display: flex;
-    gap: 30px;
+    gap: 3vh;
 }
 
 
@@ -37,35 +30,33 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 1vh;
     height: 300vh;
 }
 .popular h1{
     color: #171717;
-    font-size: 80px;
+    font-size: 12vh;
     font-weight: 600;
-    width: 900px;
+    width: 125vh;
     position: relative;
-    left: 45rem;
-    bottom: 0rem;
+    left: 98vh;
 }
 .popular hr{
-    width:300px;
-    /* height: 990px; */
-    border-radius: 10px;
+    width:50vh;
+    border-radius: 25vh;
     background: #252525;  
     position: relative;
-    left: 35rem;
-    bottom: 1rem;
+    left: 80vh;
+    bottom: 1vw;
 }
 .popular-item{
-    margin-top: 50px;
+    margin-top: 5vh;
    position: relative;
-   left: 32rem;
+   left: 75vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 100px;
-    row-gap: 100px;
-    column-gap: 400px;
+    /* gap: 10vh; */
+    row-gap: 30vw;
+    column-gap: 60vh;
 }
 }

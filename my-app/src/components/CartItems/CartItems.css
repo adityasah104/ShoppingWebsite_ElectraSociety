@@ -72,49 +72,12 @@
 
   }
   
-  .cartitems-promocode {
-    flex: 1;
-    font-size: 1.2vw; /* Adjust font size for responsiveness */
-    font-weight: 500;
-  }
-  
-  .cartitems-promocode p {
-    color: #555;
-  }
-  
-  .cartitems-promobox {
-    width: 30vw; /* Adjust width for responsiveness */
-    margin-top: 1.5vw; /* Adjust margin top for responsiveness */
-    padding-left: 1.5vw; /* Adjust padding for responsiveness */
-    height: 4vw; /* Adjust height for responsiveness */
-    background: #eaeaea;
-  }
-  
-  .cartitems-promobox input {
-    border: none;
-    outline: none;
-    background: transparent;
-    font-size: 1.2vw; /* Adjust font size for responsiveness */
-    width: 20vw; /* Adjust width for responsiveness */
-    height: 4vw; /* Adjust height for responsiveness */
-  }
-  
-  .cartitems-promobox button {
-    width: 7vw; /* Adjust width for responsiveness */
-    height: 4vw; /* Adjust height for responsiveness */
-    font-size: 1.2vw; /* Adjust font size for responsiveness */
-    cursor: pointer;
-  }
-  
-
-
-
   @media screen and (max-width: 450px) {
     .cartitems {
-      height: 300rem;
-      width: 85rem;
+      height: 700vh;
+      width: 375vw;
       position: relative;
-      left: 3rem;
+      left: 4vh;
     }
     
     .cartitems hr {
@@ -137,28 +100,28 @@
       
     }
     .naam{
-      width: 5px;
+      width: 50vh;
       position: relative;
-      right: 22px;
+      right: 5vh;
     }
     .daam{
       position: relative;
-      bottom: 25px;
+      bottom: 5vh;
     }
     .cartitems-quantity{
-      font-size: 35px;
+      font-size: 5vh;
       position: relative;
-      bottom: 25px;
+      bottom: 2vh;
     }
     .cartitems-format {
       font-size: 10vw; /* Adjust font size for responsiveness */
       font-weight: 500;
-      gap: 2px;
+      /* gap: -10vh; */
     }
     
     .carticon-product-icon {
-      height: 105vw; /* Adjust icon height for responsiveness */
-      width: 150px;
+      height: 50vw; /* Adjust icon height for responsiveness */
+      width: 15vh;
       
     }
     
@@ -167,7 +130,7 @@
       margin: 0 4vw; /* Adjust margin for responsiveness */
       cursor: pointer;
       position: relative;
-      bottom: 25px;
+      bottom: 5vw;
     }
     
     .cartitems-quantity {

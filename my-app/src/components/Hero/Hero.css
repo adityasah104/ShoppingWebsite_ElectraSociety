@@ -2,83 +2,60 @@
     height: 100vh;
     background: linear-gradient(180deg, rgb(72, 162, 231), #f1f3f2 60%);
     display: flex;
-    width: 100%;
+    width: 208.2vh;
 }   
 .hero-left{
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
-    padding-left: 180px;
+    gap: 4vh;
+    padding-left: 18vh;
     line-height: 1.1;
 }
 .hero-left h2{
     color: #090909;
-    font-size: 26px;
+    font-size: 4vh;
     font-weight: 600;
     position: relative;
-    bottom: 100px;
+    bottom: 12vh;
 }
 .hero-left p{
     color: #171717;
-    font-size: 95px;
+    font-size: 12vh;
     font-weight: 800;
     display: block;
     position: relative;
-    bottom: 100px;
-    margin-right: 10px;
-    /* justify-content: center; */
+    bottom: 12vh;
+   
 }
 
-.hero-hand-icon{
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    gap: 20px;
-}
 
-.hero-hand-icon img{
-    width: 105px;
-}
+
 .hero-latest-btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    width: 310px;
-    height: 70px;
-    border-radius: 75px;
-    margin-top: 30px;
+    gap: 1vh;
+    width: 41vh;
+    height: 4vw;
+    border-radius: 7vh;
+    margin-top: 4vh;
     background: #000000;
     color: white;
-    font-size: 22px;
+    font-size: 3.5vh;
     font-weight: 500;
     position: relative;
-    bottom: 100px;
+    bottom: 6vw;
 }
-.thunder{
-    position: relative;
-    top: 220px;
-    left: 500px;
-}
+
 .latestbutton button{
 border: none;
 background: none;
 cursor: pointer;
 }
-.hero-right{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    /* position: relative; */
-    /* top: 25px; */
-    justify-content: center;
-}
-.thunderp{
-    display: block;
-    width: 1200px;
-}
+
+
 
 
 
@@ -86,41 +63,26 @@ cursor: pointer;
 
 @media screen and (max-width: 450px) {
     .hero{
-        height: 100rem;
+        height: 400vw;
         background: linear-gradient(180deg, rgb(72, 162, 231), #f1f3f2 60%);
         display: flex;
-        width: 90rem;
+        width: 201vh;
     }
  
-    .hero-left{
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px;
-        padding-left: 180px;
-        line-height: 1.1;
-        position: relative;
-        bottom: 50px;
-        right: 90px;
-    }
+     
     .hero-left h2{
         color: #090909;
-        font-size: 46px;
+        font-size: 7vh;
         font-weight: 600;
         position: relative;
-        bottom: 100px;
+        bottom: 35vw;
     }
     .hero-left p{
         color: #171717;
-        font-size: 125px;
+        font-size: 17vh;
         font-weight: 800;
-        width: 1200px;
-        /* display: block; */
         position: relative;
-        bottom: 100px;
-        margin-right: 10px;
-        /* justify-content: center; */
+        bottom: 25vw;
     }
     
 
@@ -130,17 +92,18 @@ cursor: pointer;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 15px;
-        width: 410px;
-        height: 120px;
-        border-radius: 75px;
-        margin-top: 30px;
+        gap: 5vh;
+        width: 67vh;
+        height: 42vw;
+        border-radius: 15vh;
+        margin-top: 25vw;
         background: #000000;
         color: white;
-        font-size: 32px;
+        font-size: 6vh;
         font-weight: 600;
         position: relative;
-        bottom: 100px;
+        bottom: 40vw;
+        right:5vh ; 
     }
     
     

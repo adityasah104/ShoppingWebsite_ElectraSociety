@@ -1,31 +1,31 @@
 .item{
-    width: 350px;
+    width: 48vh;
 }
 .item p{
-    margin: 6px 0px;
-    margin-left: 90px;
+    margin: 1vh 1vh;
+    margin-left: 8%;
 }
 .item-prices{
     display: flex;
-    gap: 20px;
+    gap: 2vh;
     justify-content: center;
     align-items: center;
 }
 
 .item-price-old{
     color: #000000;
-    font-size: 18px;
+    font-size: 8vh;
     font-weight: 500;
     
-    /* text-decoration: line-through; */
+  
 }
 .item:hover{
     transform: scale(1.05);
     transition: 0.6s;
 }
 .item img{
-    width: 360px;
-    height: 360px;
+    width: 50vh;
+    height: 20vw;
 }
 
 

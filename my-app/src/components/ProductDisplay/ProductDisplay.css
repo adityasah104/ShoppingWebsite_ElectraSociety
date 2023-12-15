@@ -2,54 +2,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 170px;
+    margin: 0px 7vh;
+    /* width: 50%; */
 }
-.productdisplay-left{
-    display: flex;
-    gap: 17px;
-}
-.productdisplay-img-list{
-    display: flex;
-    flex-direction: column;
-    gap: 36px;
-}
-.productdisplay-img-list img{
-    height: 163px;
-}
+
+
+
 .productdisplay-main-img{
-    width: 586px;
-    height: 700px;
+    width: 68vh;
+    height: 50vw;
+    position: relative;
+    bottom: 7vw;
 }
 .productdisplay-right{
-    margin: 0px 70px;
+    margin: 2vw 7vh;
     position: relative;
-    top: 100px;
+    top: 5vw;
     display: flex;
     flex-direction: column;
 }
-.productdisplay-right-sizes h1{
-    color: #3d3d3d;
-    font-size: 40px;
-    position: relative;
-    bottom: 22px;
-    width: 50px;
-    font-weight: 700;
-    
-}
-.productdisplay-right-stars{
-    display: flex;
-    align-items: center;
-    margin-top: 13px;
-    gap: 5px;
-    color: #1c1c1c;
-    font-size: 16px;
-    text-decoration: none;
-}
+
+
 .productdisplay-right-prices{
     display: flex;
-    margin: 40px 0px;
-    gap: 30px;
-    font-size: 24px;
+    margin: 8vh 0vh;
+    gap: 4vh;
+    font-size: 5vh;
     font-weight: 700;
 }
 .productdisplay-right-price-old{
@@ -59,59 +37,37 @@
 .productdisplay-right-price-new{
     color: #ff4141;
     position: relative;
-    bottom: 15px;
-    right: 275px;
+    bottom: 2vw;
+    right: 37vh;
 }
 .productdisplay-right-discription{
     position: relative;
-    bottom: 515px;
-    left:15px;
+    bottom: 34vw;
+    left:1vh;
 }
-.productdisplay-right-size h1{
-    margin-top: 55px;
-    color: #656565;
-    font-size: 20px;
-    font-weight: 600;
-}
-.productdisplay-right-sizes{
-    display: flex;
-    margin: 30px 0px;
-    gap: 20px;
-}
-.productdisplay-right-sizes div{
-    padding: 18px 24px;
-    background: #fbfbfb;
-    border: 1px solid #ebebeb;
-    border-radius: 3px;
-    cursor: pointer;
-}
+
 .productdisplay-right button{
-    padding: 20px 40px;
-    width: 200px;
-    font-size: 16px;
+    padding: 3vh 4vh;
+    width: 30vh;
+    font-size: 3vh;
     font-weight: 600;
     color: white;
     background: #FF4141;
-    margin-bottom: 40px;
+    margin-bottom: 4vw;
     border: none;
     outline: none;
     cursor: pointer;
     position: relative;
-    bottom: 450px;
-}
-.productdisplay-right-category{
-    margin-top: 10px;
-}
-.productdisplay-right-category span{
-    font-weight: 600;
+    bottom: 32vw;
 }
 
+
 .sizechart{
-    width: 250px;
-    height: 550px;
+    width: 35vh;
+    height: 35vw;
     position: relative;
-    top: 120px;
-    left: -10px;
+    top: 12vh;
+    left: 25vh;
 }
 
 
@@ -121,75 +77,69 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0px 170px;
-        width: 50rem;
+        margin: 0px 27vh;
+        width: 115vh;
         
     }
-    .productdisplay-left{
-        display: flex;
-        gap: 17px;
-    }
-  
+    
    
     .productdisplay-main-img{
-        width: 586px;
-        height: 900px;
+        width: 78vh;
+        height: 260vw;
         position: relative;
-        left: 7rem;
+        left: 17vh;
     }
     .productdisplay-right{
-        margin: 0px 40px;
+        margin: 0vh 4vh;
         position: relative;
-        top: 10rem;
-        left: 10rem;
-        /* width: 775rem; */
+        top: 25vh;
+        left: 25vh;
         display: flex;
         flex-direction: column;
     }
 
     .productdisplay-right-prices{
         display: flex;
-        margin: 10px 0px;
-        gap: 30px;
+        margin: 1vh 0vh;
+        gap: 3vh;
         position: relative;
-        top: 3rem;
-        left: 2rem;
-        font-size: 54px;
+        top: 7vh;
+        left: -30vh;
+        font-size: 8vh;
         font-weight: 700;
     }
  
 
     .productdisplay-right-discription{
         position: relative;
-        bottom: 515px;
-        left:15px;
-        font-size: 35px;
-        width: 550px;
+        bottom: 141vw;
+        font-size: 6vh;
+        width: 95vh;
     }
 
 
     .productdisplay-right button{
-        padding: 20px 40px;
-        width: 400px;
-        font-size: 36px;
+        padding: 4vh 4vh;
+        width: 70vh;
+        font-size: 7vh;
         font-weight: 600;
         color: white;
         background: #FF4141;
-        margin-bottom: 50px;
+        margin-bottom: 5vw;
         border: none;
         outline: none;
         cursor: pointer;
         position: relative;
-        bottom: 460px;
+        bottom: 126vw;
     }
 
     
     .sizechart{
-        width: 350px;
-        height: 650px;
+        width: 65vh;
+        height: 175vw;
         position: relative;
-        top: 190px;
-        left: 90px;
+        top: 59vw;
+        left: 20vh;
     }
     
 
