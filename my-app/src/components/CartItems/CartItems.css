@@ -1,0 +1,118 @@
+.cartitems {
+    margin: 5vw; /* Adjust margin for responsiveness */
+  }
+  
+  .cartitems hr {
+    height: 0.2vw; /* Adjust height for responsiveness */
+    background: #e2e2e2;
+    border: 0;
+  }
+  
+  .cartitems-format-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8%, 1fr)); /* Adjust grid columns for responsiveness */
+    align-items: center;
+    gap: 3vw; /* Adjust gap for responsiveness */
+    padding: 2vw 0; /* Adjust padding for responsiveness */
+    color: #454545;
+    font-size: 1.2vw; /* Adjust font size for responsiveness */
+    font-weight: 600;
+  }
+  
+  .cartitems-format {
+    font-size: 1.1vw; /* Adjust font size for responsiveness */
+    font-weight: 500;
+  }
+  
+  .carticon-product-icon {
+    height: 3vw; /* Adjust icon height for responsiveness */
+  }
+  
+  .cartitems-remove-icon {
+    width: 1.5vw; /* Adjust width for responsiveness */
+    margin: 0 4vw; /* Adjust margin for responsiveness */
+    cursor: pointer;
+  }
+  
+  .cartitems-quantity {
+    width: 5vw; /* Adjust width for responsiveness */
+    height: 4vw; /* Adjust height for responsiveness */
+    border: 0.2vw solid #ebebeb; /* Adjust border for responsiveness */
+    background: #fff;
+  }
+  
+  .cartitems-down {
+    display: flex;
+    margin: 5vw 0; /* Adjust margin for responsiveness */
+  }
+  
+  .cartitems-total {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw; /* Adjust margin for responsiveness */
+    gap: 3vw; /* Adjust gap for responsiveness */
+  }
+  
+  .cartitems-total-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vw 0; /* Adjust padding for responsiveness */
+  }
+  
+  .cartitems-total button {
+    width: 15vw; /* Adjust width for responsiveness */
+    height: 4vw; /* Adjust height for responsiveness */
+    font-size: 1.2vw; /* Adjust font size for responsiveness */
+    font-weight: 600;
+    cursor: pointer;
+    background: #ff5a5a;
+    color: #fff;
+    /* border-radius: 15px; */
+
+  }
+  
+  .cartitems-promocode {
+    flex: 1;
+    font-size: 1.2vw; /* Adjust font size for responsiveness */
+    font-weight: 500;
+  }
+  
+  .cartitems-promocode p {
+    color: #555;
+  }
+  
+  .cartitems-promobox {
+    width: 30vw; /* Adjust width for responsiveness */
+    margin-top: 1.5vw; /* Adjust margin top for responsiveness */
+    padding-left: 1.5vw; /* Adjust padding for responsiveness */
+    height: 4vw; /* Adjust height for responsiveness */
+    background: #eaeaea;
+  }
+  
+  .cartitems-promobox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.2vw; /* Adjust font size for responsiveness */
+    width: 20vw; /* Adjust width for responsiveness */
+    height: 4vw; /* Adjust height for responsiveness */
+  }
+  
+  .cartitems-promobox button {
+    width: 7vw; /* Adjust width for responsiveness */
+    height: 4vw; /* Adjust height for responsiveness */
+    font-size: 1.2vw; /* Adjust font size for responsiveness */
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .cartitems {
+      margin: 8vw; /* Adjust margin for smaller screens */
+    }
+  
+    .cartitems-format-main {
+      font-size: 3vw; /* Adjust font size for smaller screens */
+    }
+  }
