@@ -13,9 +13,10 @@ const CartItems = () => {
             <p>Price</p>
             <p>Quantity</p>
             <p>Total</p>
-            <p>Remove</p>
+            <p className='remove'>Remove</p>
         </div>
         <hr />
+        <div className='items2'>
         {all_product.map((e)=>{
             if(cartItems[e.id]>0)
             {
@@ -34,6 +35,7 @@ const CartItems = () => {
             }
             return null;
         })}
+        </div>
         <div className="cartitems-down">
             <div className="cartitems-total">
                 <h1>Cart Totals</h1>

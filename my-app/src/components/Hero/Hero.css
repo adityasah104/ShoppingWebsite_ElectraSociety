@@ -61,12 +61,12 @@ cursor: pointer;
 
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 763px) {
     .hero{
-        height: 400vw;
+        height: 370vw;
         background: linear-gradient(180deg, rgb(72, 162, 231), #f1f3f2 60%);
         display: flex;
-        width: 201vh;
+        width: 190vh;
     }
  
      
@@ -108,3 +108,36 @@ cursor: pointer;
     
     
 }
+
+
+
+
+@media only screen and (min-width: 768px)and (max-width: 1024px) {
+    .hero {
+      width: 86%; /* Adjust width for iPad screens */
+      padding: 5vh; /* Modify padding for iPad screens */
+      display: flex;
+      flex-direction: column; /* Adjust layout for smaller screens */
+    }
+  
+    .hero-left {
+      padding-left: 8vh; /* Adjust padding for smaller screens */
+    }
+  
+    .hero-left h2 {
+      font-size: 3.5vh; /* Adjust font size for h2 on iPad screens */
+      bottom: 6vh; /* Adjust position for smaller screens */
+    }
+  
+    .hero-left p {
+      font-size: 8vh; /* Adjust font size for p on iPad screens */
+      bottom: 6vh; /* Adjust position for smaller screens */
+    }
+  
+    .hero-latest-btn {
+      width: 30vh; /* Adjust button width for iPad screens */
+      height: 8vh; /* Adjust button height for iPad screens */
+      font-size: 3vh; /* Adjust font size for button on iPad screens */
+      bottom: 4vh; /* Adjust position for smaller screens */
+    }
+  }

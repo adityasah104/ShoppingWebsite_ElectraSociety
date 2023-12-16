@@ -61,7 +61,7 @@
     height: 7vw;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 763px) {
     .footer{
         display: flex;
         flex-direction: column;
@@ -133,3 +133,47 @@
         height: 50vw;
     }
 }
+
+
+
+
+@media only screen and (min-width: 768px)   and (max-width: 1024px) {
+    .footer {
+      gap: 3vw; /* Adjust gap between elements for iPad screens */
+    }
+  
+    .footer-logo p {
+      font-size: 4vh; /* Adjust font size for footer logo text on iPad screens */
+    }
+  
+    .footer-links {
+      gap: 3vh; /* Adjust gap between links for iPad screens */
+      font-size: 2.5vh; /* Adjust font size for links on iPad screens */
+    }
+  
+    .footer-social-icon {
+      gap: 2vh; /* Adjust gap between social icons for iPad screens */
+    }
+  
+    .footer-icons-container {
+      padding: 1vh; /* Adjust padding for icons container on iPad screens */
+      padding-bottom: 3px; /* Adjust bottom padding for icons container on iPad screens */
+    }
+  
+    .footer-copyright {
+      gap: 5vw; /* Adjust gap between elements for iPad screens */
+      font-size: 2.5vh; /* Adjust font size for copyright text on iPad screens */
+      margin-bottom: 2vw; /* Adjust margin bottom for iPad screens */
+    }
+  
+    .footer-copyright hr {
+      width: 60%; /* Adjust width for hr on iPad screens */
+      height: 0.3vh; /* Adjust height for hr on iPad screens */
+      border-radius: 5vh; /* Adjust border radius for hr on iPad screens */
+    }
+  
+    .footerlogo {
+      width: 10vh; /* Adjust width for footer logo on iPad screens */
+      height: auto; /* Maintain aspect ratio for footer logo on iPad screens */
+    }
+  }

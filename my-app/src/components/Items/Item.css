@@ -50,3 +50,29 @@
         font-size: 8vh;
     }
 }
+
+@media only screen and (max-width: 1024px) {
+    .item {
+      width: 90%; /* Adjust width for iPad screens */
+      margin: 2vh auto; /* Adjust margins for iPad screens */
+    }
+  
+    .item p {
+      margin: 1vh 1vh; /* Adjust margins for text on iPad screens */
+      margin-left: 5%; /* Adjust left margin for text on iPad screens */
+    }
+  
+    .item img {
+      width: 80%; /* Adjust image width for iPad screens */
+      height: auto; /* Maintain aspect ratio for images on iPad screens */
+    }
+  
+    .item-price-old {
+      font-size: 6vh; /* Adjust font size for prices on iPad screens */
+    }
+    
+    .item:hover {
+      transform: scale(1.03); /* Slight scale adjustment on hover for iPad screens */
+      transition: 0.4s; /* Adjust transition duration for smoother hover effect on iPad screens */
+    }
+  }

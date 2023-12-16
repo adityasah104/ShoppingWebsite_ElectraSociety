@@ -27,7 +27,7 @@ color: #555;
     padding-bottom: 4vw;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 763px) {
     .descriptionbox{
         margin: 12vh 17vh;
         width: 100vh;
@@ -64,3 +64,43 @@ color: #555;
         font-size: 5vh;
     }
 }
+
+
+
+
+@media only screen and (min-width: 768px)  and (max-width: 1024px) {
+    .descriptionbox {
+      margin: 2vh 5%;
+    }
+  
+    .descriptionbox-navigator {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2%;
+      justify-content: center;
+    }
+  
+    .descriptionbox-nav-box {
+      font-size: 2.5vh;
+      width: 30%;
+      max-width: 25vh;
+      position: relative;
+      right: 21.3vh;
+      height: auto;
+      border: 1px solid #d0d0d0;
+    }
+  
+    .descriptionbox-nav-box.fade {
+      background: #fbfbfb;
+      color: #555;
+    }
+  
+    .desciptionbox-description {
+      display: flex;
+      flex-direction: column;
+      gap: 4%;
+      border: 1px solid #d0d0d0;
+      padding: 4%;
+      font-size: 2vh;
+    }
+  }

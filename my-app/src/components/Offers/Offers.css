@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 450px) {
     .offers{
-        width:65% ;
+        width:50% ;
         height: 150vh;
         display: flex;
         margin: auto;
@@ -108,3 +108,40 @@
     }
     
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .offers {
+      width: 80%; /* Adjust width for iPad screens */
+      height: auto; /* Allow height to adjust based on content for iPad screens */
+      flex-direction: column; /* Adjust layout for smaller screens */
+      padding: 5vh; /* Adjust padding for iPad screens */
+      margin-bottom: 5vh; /* Adjust margin for iPad screens */
+    }
+  
+    .offers-left h1 {
+      font-size: 6vh; /* Adjust font size for h1 on iPad screens */
+    }
+  
+    .offers-left p {
+      font-size: 2vh; /* Adjust font size for paragraphs on iPad screens */
+    }
+  
+    .offers-left button {
+      width: 30vh; /* Adjust button width for iPad screens */
+      height: 8vh; /* Adjust button height for iPad screens */
+      font-size: 3vh; /* Adjust font size for button on iPad screens */
+      margin-top: 2vw; /* Adjust margin for iPad screens */
+    }
+  
+    .offers-right {
+      padding-top: 1vh; /* Adjust padding for iPad screens */
+    }
+  
+    .eximg {
+      height: 50vh; /* Adjust image height for iPad screens */
+      width: 70%; /* Adjust image width for iPad screens */
+      position: static; /* Reset position for the image on iPad screens */
+      margin: auto; /* Center the image on iPad screens */
+    }
+  }

@@ -8,7 +8,7 @@
     margin: 60px 170px;
     text-transform: capitalize;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 763px) {
     .breadcrum{
         display: flex;
         align-items: center;
@@ -17,7 +17,22 @@
         font-size: 5vh;
         font-weight: 400;
         margin: 6vh 5vw;
-        width: 270vh;
+        width: 137vh;
         text-transform: capitalize;
     }
 }
+
+
+
+@media only screen and (min-width: 768px)  and (max-width: 1024px) {
+    .breadcrum {
+      display: flex;
+      align-items: center;
+      gap: 1vh;
+      color: #5e5e5e;
+      font-size: 2vh;
+      font-weight: 600;
+      margin: 3vh 5%;
+      text-transform: capitalize;
+    }
+  }

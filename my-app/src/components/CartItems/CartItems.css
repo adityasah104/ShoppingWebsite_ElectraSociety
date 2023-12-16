@@ -72,14 +72,14 @@
 
   }
   
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 763px) {
     .cartitems {
-      height: 700vh;
-      width: 375vw;
+      height: 600vh;
+      width: 355vw;
       position: relative;
       left: 4vh;
     }
-    
+
     .cartitems hr {
       height: 2vw; /* Adjust height for responsiveness */
       background: #e2e2e2;
@@ -88,13 +88,14 @@
     
     .cartitems-format-main {
       display: grid;
-      /* grid-template-columns: repeat(auto-fit, minmax(8%, 1fr)); Adjust grid columns for responsiveness */
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 2fr 2fr 2fr 2fr;
       align-items: center;
+      width: 175vh;
+      /* row-gap: 20vw;
+      column-gap: 20vw; */
       gap: 0.5vw; /* Adjust gap for responsiveness */
       padding: 20vw 0; 
       color: #454545;
-      /* height: 55rem; */
       font-size: 10vw; /* Adjust font size for responsiveness */
       font-weight: 600;
       
@@ -139,7 +140,10 @@
       border: 0.2vw solid #ebebeb; /* Adjust border for responsiveness */
       background: #fff;
     }
-    
+    .remove{
+      visibility: hidden;
+
+    }
     .cartitems-down {
       display: flex;
       margin: 5vw 0; /* Adjust margin for responsiveness */
@@ -173,4 +177,66 @@
     }
     
 
+  }
+
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .cartitems {
+      margin: 4vw;
+    }
+    
+    .cartitems hr {
+      height: 0.1vw;
+      margin: 2vw 0;
+    }
+    
+    .cartitems-format-main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
+      gap: 2vw;
+      padding: 2vw;
+      font-size: 1.5vw;
+    }
+    .remove{
+      visibility: hidden;
+
+    }
+    .cartitems-format {
+      font-size: 2vw;
+    }
+    
+    .carticon-product-icon {
+      height: 9vw;
+    }
+    
+    .cartitems-remove-icon {
+      width: 1.2vw;
+      margin: 0 1.5vw;
+    }
+    
+    .cartitems-quantity {
+      width: 4.5vw;
+      height: 3vw;
+      border: 0.1vw solid #ebebeb;
+    }
+    
+    .cartitems-down {
+      margin: 3vw 0;
+    }
+    
+    .cartitems-total {
+      margin-right: 5vw;
+      gap: 1.5vw;
+      font-size: 2vh;
+    }
+    
+    .cartitems-total-items {
+      padding: 1vw 0;
+    }
+    
+    .cartitems-total button {
+      width: 18vw;
+      height: 8vw;
+      font-size: 1.5vw;
+    }
   }
