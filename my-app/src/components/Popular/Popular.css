@@ -58,7 +58,7 @@
     grid-template-columns: 1fr 1fr;
     /* gap: 10vh; */
     row-gap: 30vw;
-    column-gap: 60vh;
+    column-gap: 30vh;
 }
 }
 

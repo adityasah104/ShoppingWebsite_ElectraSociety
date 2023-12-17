@@ -7,14 +7,15 @@
     position: sticky;
     top: 0;
     width: 95.2%;
+    height: 3vw;
     z-index: 2;
   }
   
   
   /* Logo styles */
   .img_elec {
-    width: 10vh;
-    height: 10vh;
+    width: 15vh;
+    height: 15vh;
 }
 
 .nav-logo {
@@ -146,16 +147,19 @@
   }
 
   .nav-logo p {
-    font-size: 4vh; /* Adjust font size for logo text on iPads */
+    font-size: 3vh; /* Adjust font size for logo text on iPads */
   }
 
   .nav-menu li {
     gap: 2vh; /* Adjust gap between menu items for iPads */
   }
-
+  .img_elec {
+    width: 5vh;
+    height: 5vh;
+}
   .nav-login-cart button {
-    width: 15vh; /* Adjust button width for iPads */
-    height: 6vh; /* Adjust button height for iPads */
+    width: 14vh; /* Adjust button width for iPads */
+    height: 5vh; /* Adjust button height for iPads */
     font-size: 2.5vh; /* Adjust font size for buttons on iPads */
   }
 
@@ -163,8 +167,11 @@
     width: 2vh; /* Adjust width for cart count on iPads */
     height: 3vh; /* Adjust height for cart count on iPads */
     margin-top: -3vh; /* Modify margin for cart count on iPads */
-    margin-left: -5vh; /* Modify margin for cart count on iPads */
+    margin-left: -7vh; /* Modify margin for cart count on iPads */
     font-size: 1.5vh; /* Adjust font size for cart count on iPads */
+  }
+  .nav-login-cart img{
+    width: 4vh;
   }
 }
 

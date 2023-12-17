@@ -114,7 +114,7 @@ cursor: pointer;
 
 @media only screen and (min-width: 768px)and (max-width: 1024px) {
     .hero {
-      width: 86%; /* Adjust width for iPad screens */
+      width: 86.1%; /* Adjust width for iPad screens */
       padding: 5vh; /* Modify padding for iPad screens */
       display: flex;
       flex-direction: column; /* Adjust layout for smaller screens */
